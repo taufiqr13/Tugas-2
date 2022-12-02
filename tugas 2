@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void) {
+  float sisi;
+  int volume;
+
+  printf("Masukkan Nilai Ketiga Sisi Kubus : ");
+  scanf("%f,", &sisi);
+
+  if(sisi == (int)sisi){
+    volume = sisi * sisi * sisi;
+
+    printf("Volume Kubus = %i\n", volume);
+  }
+  else{
+    printf("Tipe data tidak sesuai\n", volume);
+  }
+  return 0;
+}
